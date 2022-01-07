@@ -27,6 +27,10 @@
         }
     }
 
+	if(!isset($_SESSION['login'])){
+		header('Location: index.php');
+	}
+
 ?>
 
 <html>
@@ -43,7 +47,7 @@
 <div class="search-box">
 	<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
 	<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
-<img src="images/favicon.ico" class="logo">
+<a href="home.php"><img src="images/favicon.ico" class="logo"> </a>
 <input type="text" class="form-control">
 <span class="input-group-text"><i class="fa fa-search"></i></span>
 </div>
@@ -171,6 +175,7 @@
 	<div class="row">
 		<?php
 			$result = $database->getData();
+			
 			while($row = mysqli_fetch_assoc($result))
 			{
 				component($row['product_name'], $row['product_price'], $row['product_image'], $row['productid']);

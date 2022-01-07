@@ -27,6 +27,10 @@
         }
     }
 
+	// if(!isset($_SESSION['login'])){
+	// 	header('Location: index.php');
+	// }
+
 ?>
 
 
@@ -50,7 +54,12 @@
 </div>
 <div class="menu-bar">
 <ul>
-<li><a href="cart.php"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+<?php 
+if(isset($_SESSION['login'])){
+ echo '<li><a href="cart.php"><i class="fa fa-shopping-basket"></i>Cart</a></li>';
+}
+?>
+
 <li><a href="register.php">Sign up</a></li>
 <li><a href="login.php">Log in</a></li>
 </ul>

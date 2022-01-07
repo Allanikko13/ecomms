@@ -28,6 +28,11 @@ $dbprollers = new CreateDb("ecomms", "proller");
 $dbvarnish = new CreateDb("ecomms", "varnish");
 $dbwpaint = new CreateDb("ecomms", "wpaint");
 $dbwstain = new CreateDb("ecomms", "wstain");
+
+if(!isset($_SESSION['login'])){
+    header('Location: index.php');
+}
+
 ?>
 <!doctype html>
 <html lang="en">

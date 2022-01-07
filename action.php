@@ -24,6 +24,7 @@
         $r = mysqli_fetch_assoc($q);
 
         if($r){
+          $_SESSION['login'] = true;
           echo "<script>
           alert('Login Successfully');
           window.location.href='home.php';

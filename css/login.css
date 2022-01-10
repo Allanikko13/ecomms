@@ -1,82 +1,71 @@
 /*--------login page------------*/
 body {
-  margin: 0;
-  padding: 0;
-
-}
-#login .container #login-row #login-column #login-box {
-  margin-top: 120px;
-  max-width: 750px;
-  height: 370px;
-  border: 1px solid #9C9C9C;
-  background-color: #EAEAEA;
-}
-#login .container #login-row #login-column #login-box #login-form {
-  padding: 25px;
-}
-#login .container #login-row #login-column #login-box #login-form #register-link {
-  margin-top: -85px;
-}
-.top-nav-bar
-{
-	height: 57px;
-	top: 0;
-	position: sticky;
-	background: #fff;
-	margin-bottom: 20px;
-	border-bottom: 3px solid  #c2423d;
-	z-index: 2;
-}
-.search-box
-{
-	display: inline-flex;
-	width: 60%;
-}
-.fa-search
-{
-	color: #fff;
-}
-.menu-bar
-{
-	width: 40%;
-	height: 57px;
-	float: right;
-}
-.menu-bar ul 
-{
-	display: inline-flex;
-	float: right;
-}
-.menu-bar ul li
-{
-	border-left: 1px solid #fff;
-	list-style-type: none;
-	padding: 15px 35px;
-	text-align: center;
-	background-color: #c2423d;
-	cursor: pointer;
-}
-.menu-bar ul li a 
-{
-	font-size: 16px;
-	font-weight: bold;
-	color: #fff;
-	text-decoration: none;
-}
-
-.logo
-{
-	height: 40px;
-	margin: 5px 10px;
-}
-.form-control
-{
-	margin-top: 9px;
-	margin-left: 20px;
-	border: 1px solid  #c2423d !important;
-	border-top-left-radius: 20px !important;
-	border-bottom-left-radius: 20px !important;
-	border-top-right-raduis: 0 !important;
-	border-bottom-right-radius: 0 !important;
-	box-shadow: none !important;
-}
+	margin: 0;
+	padding: 0;
+  
+  }
+  #login .container #login-row #login-column #login-box {
+	margin-top: 120px;
+	max-width: 750px;
+	height: 410px;
+	border: 1px solid #9C9C9C;
+	background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+	padding: 25px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+	margin-top: -85px;
+  }
+  .top-nav-bar
+  {
+	  height: 57px;
+	  top: 0;
+	  position: sticky;
+	  background: #fff;
+	  margin-bottom: 20px;
+	  border-bottom: 3px solid  #c2423d;
+	  z-index: 2;
+  }
+  .search-box
+  {
+	  display: inline-flex;
+	  width: 60%;
+  }
+  .fa-search
+  {
+	  color: #fff;
+  }
+  .menu-bar
+  {
+	  width: 40%;
+	  height: 57px;
+	  float: right;
+  }
+  .menu-bar ul 
+  {
+	  display: inline-flex;
+	  float: right;
+  }
+  .menu-bar ul li
+  {
+	  border-left: 1px solid #fff;
+	  list-style-type: none;
+	  padding: 15px 35px;
+	  text-align: center;
+	  background-color: #c2423d;
+	  cursor: pointer;
+  }
+  .menu-bar ul li a 
+  {
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #fff;
+	  text-decoration: none;
+  }
+  
+  .logo
+  {
+	  height: 40px;
+	  margin: 5px 10px;
+  }

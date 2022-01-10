@@ -5,7 +5,10 @@
 	require_once('./php/component.php');
 
 	$database = new CreateDb("ecomms", "products");
-
+	if (!isset($_SESSION['user']))
+	{
+		echo "<script>window.location='login.php'</script>";
+	}
 	if(isset($_POST['add'])){
         //print_r($_POST['productid']);
         if(isset($_SESSION['cart'])){

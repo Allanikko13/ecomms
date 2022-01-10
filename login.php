@@ -7,11 +7,11 @@ if(isset($_SESSION['user'])){
 <head>
 <title>Login</title>
 <link rel="stylesheet" href="css/login.css">
-
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
 
 
 </head>
@@ -40,6 +40,7 @@ if(isset($_SESSION['user'])){
                             <div class="form-group">
                                 <label for="password" class="text-info" >Password:</label><br>
                                 <input type="password" name="pass" id="pass" class="form-control">
+                                <i class="far fa-eye" id="togglePassword" style="margin-left: 430px; margin-top:-25px; cursor: pointer;"></i>
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
@@ -54,5 +55,17 @@ if(isset($_SESSION['user'])){
             </div>
         </div>
     </div>
+    <script type = "text/javascript">
+      const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#pass');
+ 
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});
+        </script>
 </body>
 </html>

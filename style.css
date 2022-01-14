@@ -5,7 +5,7 @@
 }
 body
 {
-	background-color: #f1f3f4;
+	background-color: #f1f2f4;
 	font-family: sans-serif;
 }
 .top-nav-bar
@@ -13,14 +13,14 @@ body
 	height: 57px;
 	top: 0;
 	position: sticky;
-	background: #fff;
+	background: rgb(209, 137, 137);
 	margin-bottom: 20px;
 	border-bottom: 3px solid  #c2423d;
 	z-index: 2;
 }
 .logo
 {
-	height: 40px;
+	height: 45px;
 	margin: 5px 10px;
 }
 .form-control
@@ -43,12 +43,12 @@ body
 	border-bottom-left-radius: 0px !important;
 	border-top-right-radius: 20px !important;
 	border-bottom-right-radius: 20px !important;
-	cursor: pointer:
+	cursor: pointer;
 }
 .search-box
 {
 	display: inline-flex;
-	width: 60%;
+	width: 30%;
 }
 .fa-search
 {
@@ -115,12 +115,12 @@ body
 /*------SIDE MENU--------*/
 .side-menu
 {
-	height: 82%;
+	height: 78.5%;
 	width: 15%;
 	font-size: 14px;
 	float: left;
 	z-index: 2;
-	background-color: #ddd;
+	background-color: #DC9779;
 }
 .side-menu ul
 {
@@ -135,7 +135,7 @@ body
 }
 .side-menu ul li:hover
 {
-	color: #c2423d;
+	color: #f6f6f6;
 }
 .side-menu ul li ul
 {
@@ -150,7 +150,8 @@ body
 	margin-left: 14%;
 	padding: 0 100px 10px 10px;
 	position: fixed;
-	background: #ececec;
+	background: #DC9779;
+	;
 	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
 }
 .fa-angle-right

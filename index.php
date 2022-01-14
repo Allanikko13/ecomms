@@ -39,7 +39,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
-<body> 
+<body style="background-color: #F7E1D3;"> 
 <div class="top-nav-bar">
 <div class="search-box">
 	<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
@@ -60,53 +60,53 @@
 <section class="header">
 <div class="side-menu" id="side-menu">
 <ul>
-<li>On Sale<i class="fa fa-angle-right"></i>
+<li  class= "Mb-4 h5">On Sale<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="paints.php">Paints</li></a>
 	<li><a href="primers.php">Primers</li></a>
 	<li><a href="brush.php">Paint Brush</li></a>
 	</ul>
 	</li>
-	<li>Interior Paint<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Interior Paint<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="wpaint.php">Wall Paint</li></a>
 	<li><a href="cabinet.php">Cabinet Paint</li></a>
 	<li><a href="ceiling.php">Ceiling paint</li></a>
 	</ul>
 	</li>
-	<li>Exterior Paint<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Exterior Paint<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="barn.php">Barn and Fence Paint</li></a>
 	<li><a href="trim.php">Trim paint</li></a>
 	</ul>
 	</li>
-	<li>Spray Paint<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Spray Paint<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="metallic.php">Metallic</li></a>
 	<li><a href="hobby.php">Hobby</li></a>
 	<li><a href="fluorescent.php">Fluorescent</li></a>
 	</ul>
 	</li>
-	<li>Stains and Finishes<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Stains and Finishes<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="varnish.php">Varnish</li></a>
 	<li><a href="wood.php">Wood Stains</li></a>
 	<li><a href="masonry.php">Masonry and Concrete</li></a>
 	</ul>
 	</li>
-	<li>Specialty Paints<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Specialty Paints<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="chalk.php">Chalk Paint</li></a>
 	<li><a href="porch.php">Porch and Floor Paint</li></a>
 	<li><a href="garage.php">Concrete and Garage Floor Paint</li></a>
 	</ul>
 	</li>
-	<li>Primers<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Primers<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="primers.php">Primers</li></a>
 	</ul>
 	</li>
-	<li>Paint Tools<i class="fa fa-angle-right"></i>
+	<li  class= "Mb-4 h5">Paint Tools<i class="fa fa-angle-right"></i>
 	<ul>
 	<li><a href="pbrush.php">Paint Brush</li></a>
 	<li><a href="proller.php">Paint Roller Covers and Frames</li></a>

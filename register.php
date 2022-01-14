@@ -12,7 +12,7 @@ include "connect.php";
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
 </head>
-<body style=" background-color: #e33327; height: auto;">
+<body style="background-color: #F7E1D3;"; height: auto;">
 <div class="top-nav-bar">
 <a href="index.php"><img src="images/favicon.ico" class="logo"></a>
 <div class="menu-bar">
